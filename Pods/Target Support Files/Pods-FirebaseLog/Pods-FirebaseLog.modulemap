@@ -1,0 +1,6 @@
+framework module Pods_FirebaseLog {
+  umbrella header "Pods-FirebaseLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
