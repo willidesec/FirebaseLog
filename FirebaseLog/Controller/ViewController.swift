@@ -37,13 +37,6 @@ class ViewController: UIViewController {
     }
     
     // MARK: - Methods
-    func setupScrollView() {
-        let maximalWidth = view.frame.width
-        widthConstraint.constant = maximalWidth - 16
-        let heightUI = disconnectButton.frame.maxY + 20
-        scrollView.contentSize = CGSize(width: maximalWidth, height: heightUI)
-    }
-    
     @objc func keyboardIn(notification: Notification) {
         if let height = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue.height {
             animateView(constant: height)
