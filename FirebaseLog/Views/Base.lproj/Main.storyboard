@@ -220,7 +220,7 @@
                         <outlet property="disconnectButton" destination="3Ou-5Y-sZe" id="ync-0M-Fol"/>
                         <outlet property="facebookButton" destination="MVR-s2-M5W" id="AG8-PI-Yp6"/>
                         <outlet property="mailTextField" destination="xbX-H0-3To" id="ebJ-ta-Zff"/>
-                        <outlet property="passwordTextField" destination="xbX-H0-3To" id="Fzr-Pd-QeQ"/>
+                        <outlet property="passwordTextField" destination="auB-ar-UPY" id="mV6-o0-38V"/>
                         <outlet property="scrollView" destination="1eK-aT-jqe" id="6Dm-NF-Kw5"/>
                         <outlet property="twitterContainer" destination="fh3-Q2-dgZ" id="z7D-gC-yEb"/>
                         <outlet property="widthConstraint" destination="XQB-iA-BGS" id="0we-hJ-okM"/>

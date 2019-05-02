@@ -54,9 +54,6 @@ class ViewController: UIViewController {
     }
     
     // MARK: - Actions
-    @IBAction func connectButtonDidTapped(_ sender: Any) {
-    }
-    
     @IBAction func googleButtonDidTapped(_ sender: Any) {
     }
     
