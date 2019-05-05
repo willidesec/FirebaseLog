@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F22B0FD227D9CCD00D37806 /* GoogleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22B0FC227D9CCD00D37806 /* GoogleExtension.swift */; };
+		3F22B0FF227DB74400D37806 /* FacebookExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22B0FE227DB74400D37806 /* FacebookExtension.swift */; };
 		3F231C58227B92110029E22C /* MailExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F231C57227B92110029E22C /* MailExtension.swift */; };
 		3F231C5A227B92D40029E22C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F231C59227B92D40029E22C /* AuthManager.swift */; };
 		3F29259A227AC87400747498 /* ScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F292599227AC87400747498 /* ScrollViewExtension.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		32378322DFC1054D6C4A7F8E /* Pods_FirebaseLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F22B0FC227D9CCD00D37806 /* GoogleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleExtension.swift; sourceTree = "<group>"; };
+		3F22B0FE227DB74400D37806 /* FacebookExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookExtension.swift; sourceTree = "<group>"; };
 		3F231C57227B92110029E22C /* MailExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailExtension.swift; sourceTree = "<group>"; };
 		3F231C59227B92D40029E22C /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		3F292599227AC87400747498 /* ScrollViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExtension.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				3F292599227AC87400747498 /* ScrollViewExtension.swift */,
 				3F231C57227B92110029E22C /* MailExtension.swift */,
 				3F231C59227B92D40029E22C /* AuthManager.swift */,
+				3F22B0FC227D9CCD00D37806 /* GoogleExtension.swift */,
+				3F22B0FE227DB74400D37806 /* FacebookExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -308,10 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FAC5F6D2279FBBC00CC3238 /* ViewController.swift in Sources */,
+				3F22B0FF227DB74400D37806 /* FacebookExtension.swift in Sources */,
 				3F231C5A227B92D40029E22C /* AuthManager.swift in Sources */,
 				3F29259A227AC87400747498 /* ScrollViewExtension.swift in Sources */,
 				3F29259D227AC92300747498 /* Alerts.swift in Sources */,
 				3F231C58227B92110029E22C /* MailExtension.swift in Sources */,
+				3F22B0FD227D9CCD00D37806 /* GoogleExtension.swift in Sources */,
 				3FAC5F6B2279FBBC00CC3238 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

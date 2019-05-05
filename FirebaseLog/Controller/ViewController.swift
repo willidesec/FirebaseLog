@@ -15,12 +15,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var mailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var facebookButton: UIView!
+    @IBOutlet weak var facebookButton: FBSDKLoginButton!
     @IBOutlet weak var twitterContainer: UIView!
     @IBOutlet weak var disconnectButton: UIButton!
     
     @IBOutlet weak var widthConstraint: NSLayoutConstraint!
     @IBOutlet weak var bottomScrollViewConstraint: NSLayoutConstraint!
+    
+    // MARK: - Properties
+    var facebookManager = FBSDKLoginManager()
     
 
     // MARK: - View Life Cycle
@@ -28,6 +31,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardIn), name: UIApplication.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardOut), name: UIApplication.keyboardWillHideNotification, object: nil)
+        setupGoogle()
+        setupFacebook()
         
     }
     
@@ -54,19 +59,11 @@ class ViewController: UIViewController {
     }
     
     // MARK: - Actions
-    @IBAction func googleButtonDidTapped(_ sender: Any) {
-    }
-    
-    @IBAction func googleCustomButtonDidTapped(_ sender: Any) {
-    }
-    
-    @IBAction func facebookCustomButtonDidTapped(_ sender: Any) {
-    }
-    
     @IBAction func twitterCustomButtonDidTapped(_ sender: Any) {
     }
     
     @IBAction func disconnectButtonDidTapped(_ sender: Any) {
+        unAuth()
     }
     
 }
